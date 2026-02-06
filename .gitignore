@@ -1,0 +1,58 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Environment Variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# uv
+uv.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated Images (optional - uncomment if you don't want to track)
+# outputs/
+# results/images/
+
+# API Keys & Secrets
+*.pem
+*.key
+secrets.yaml
+
+# Logs
+*.log
+logs/
+
+# Model weights (usually too large for git)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+models/
+
+# ETC
+notebooks/llm-bench.ipynb
+notebooks/Kimi-K2-Instruct.ipynb
