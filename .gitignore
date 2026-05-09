@@ -1,0 +1,14 @@
+# Whitelist-only .gitignore: track only README.md, .gitignore, and 3 notebooks.
+# Everything else (configs, prompts, results, outputs, secrets, env, caches, etc.) is excluded.
+
+# Default: ignore everything.
+*
+
+# Re-include the items we explicitly want tracked.
+!.gitignore
+!README.md
+!notebooks/
+notebooks/*
+!notebooks/edge_case_test.ipynb
+!notebooks/first_chat_test.ipynb
+!notebooks/llm-bench.ipynb
